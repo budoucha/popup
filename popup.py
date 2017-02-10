@@ -20,7 +20,7 @@ sumi = read_alpha("data/sumi_s.png")
 displayWidth = win32api.GetSystemMetrics(0)
 displayHeight = win32api.GetSystemMetrics(1)
 
-quitKey = {ord('q'),27} #終了キー
+quitKey = {3,27} #終了キー
 auto = False
 
 while(1):
@@ -29,11 +29,11 @@ while(1):
     cv2.moveWindow("popup",windowX,windowY)
     if auto == False:
         pressedKey = cv2.waitKey(0)
-        if pressedKey == ord('a'): auto = True # オートモード有効化
+        if pressedKey == 1: auto = True # オートモード有効化
     else: 
         pressedKey = cv2.waitKey(80+random.randrange(80))
-        if pressedKey == ord('a'): auto = False # オートモード解除
-    if pressedKey in quitKey: break # qキーまたはESCキー押下でループ脱出
+        if pressedKey == 1: auto = False # Ctrl+a オートモード解除
+    if pressedKey in quitKey: break # Ctrl+cキーまたはESCキー押下でループ脱出
     cv2.imshow("popup",sumi)
     cv2.moveWindow("popup",windowX+int(shorichu.shape[1]/2 - sumi.shape[1]/2),windowY+int(shorichu.shape[0]/2 - sumi.shape[0]/2))
     cv2.waitKey(80)
