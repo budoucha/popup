@@ -1,6 +1,5 @@
 # 概要
 <blockquote class="twitter-video" data-lang="ja"><p lang="ja" dir="ltr">万が一スタバに行く事になってしまった時用のｶﾀｶﾀ…ﾀｰﾝ!して周囲を威嚇するやつできたー！<a href="https://t.co/MyIKngQQuo">https://t.co/MyIKngQQuo</a> <a href="https://t.co/7YJ8Ayrw4Y">pic.twitter.com/7YJ8Ayrw4Y</a></p>&mdash; ぶどう茶 (@budoucha) <a href="https://twitter.com/budoucha/status/829644496715476992">2017年2月9日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 スタバでドヤ顔する奴
 
 # 動作条件
